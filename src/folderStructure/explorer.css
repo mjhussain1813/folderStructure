@@ -1,0 +1,30 @@
+.folder {
+    border: 1px solid #ccc; 
+    padding: 10px;      
+    border-radius: 4px; 
+    margin-bottom: 10px;   
+  }
+  
+  .file-item {
+    position: relative;
+    padding: 5px;        
+    display: flex;
+    align-items: center;  
+  }
+  
+  .edit-icon {
+    margin-left: 10px;
+    cursor: pointer;
+    color: gray;
+    display: none;        
+  }
+  
+  .file-item:hover .edit-icon {
+    display: inline;       
+  }
+  
+  .file-item:hover {
+    background-color: #f0f0f0; 
+    border-radius: 4px;       
+  }
+  
